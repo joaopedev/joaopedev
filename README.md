@@ -5,9 +5,9 @@ Sou João Pedro, curso Analise e Desenvolvimento de sistemas e me aprofundo cada
 Objetivo atual: Full Stack JavaScript.
 
 <br>
-<div style="display: flex">
-     <img widh="49%" height="180em" src="https://github-readme-stats.vercel.app/api?username=joaopedev&show_icons=true&theme=tokyonight"/>
-     <img widh="49%" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopedev&layout=compact&theme=tokyonight"/>
+<div>
+     <img height="160em" src="https://github-readme-stats.vercel.app/api?username=joaopedev&show_icons=true&theme=tokyonight"/>
+     <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopedev&layout=compact&theme=tokyonight"/>
 </div>
 
 Let's get connected?
