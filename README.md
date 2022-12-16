@@ -1,8 +1,18 @@
-## Olá,
+## Hi, my name is Joao Pedro
 
-Sou João Pedro, curso Analise e Desenvolvimento de sistemas e me aprofundo cada vez mais no mundo do desenvolvimento web.
+I am a Web Software Developer, for the last 2 years I've been developing applications using Typescript and JavaScript
+as programming languages.
 
-Objetivo atual: Full Stack JavaScript.
+In my current job, I participate in all stages of software development from planning, testing and
+validation.
+My tasks range from algorithm analysis, changing codes, fixing bugs, integrating with new
+systems and systems deployment.
+
+I've been very interested in software development since the beginning of
+the construction, any structure has always piqued my interest in being a FullStack, the area covers any scope providing
+great experiences whenever you find a good team.
+
+Current goal: Full Stack JavaScript.
 
 <br>
 <div>
