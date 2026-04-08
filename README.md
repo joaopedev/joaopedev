@@ -1,26 +1,24 @@
-## Hi, my name is Joao Pedro
+## Hi, my name is Joao Pedro 👋
 
-I am a Web Software Developer, for the last 2 years I've been developing applications using Typescript and JavaScript
-as programming languages.
+I am a Web Software Developer with 2 years of experience building applications using TypeScript and JavaScript.
 
-In my current job, I participate in all stages of software development from planning, testing and
-validation.
-My tasks range from algorithm analysis, changing codes, fixing bugs, integrating with new
-systems and systems deployment.
+In my current role, I participate in all stages of software development — from planning to testing and validation.
+My responsibilities include algorithm analysis, code changes, bug fixing, system integrations, and deployments.
 
-I've been very interested in software development since the beginning of
-the construction, any structure has always piqued my interest in being a FullStack, the area covers any scope providing
-great experiences whenever you find a good team.
+I have been passionate about software development from the very beginning. Building systems and structures has always motivated me to grow as a FullStack developer — an area that offers broad challenges and great learning experiences, especially when working with a strong team.
 
-Current goal: Full Stack JavaScript.
+🚀 **Current goal:** Full Stack JavaScript
 
 <br>
-<div>
-     <img height="160em" src="https://github-readme-stats.vercel.app/api?username=joaopedev&show_icons=true&theme=tokyonight"/>
-     <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopedev&layout=compact&theme=tokyonight"/>
-</div>
 
-Let's get connected?
+<p align="center">
+  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=joaopedev&show_icons=true&theme=tokyonight&cache_seconds=86400"/>
+  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=joaopedev&layout=compact&theme=tokyonight&cache_seconds=86400"/>
+</p>
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-sousa-5b9723213/)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jassadosgame)
+---
+
+### 🤝 Let's get connected
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-sousa-5b9723213/)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge\&logo=telegram\&logoColor=white)](https://t.me/jassadosgame)
