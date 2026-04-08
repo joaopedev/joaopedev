@@ -20,5 +20,5 @@ I have been passionate about software development from the very beginning. Build
 
 ### 🤝 Let's get connected
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-pedro-sousa-5b9723213/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/joao-pedro-sousa-5b9723213/)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge\&logo=telegram\&logoColor=white)](https://t.me/jassadosgame)
