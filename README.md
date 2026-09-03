@@ -12,8 +12,12 @@ I have been passionate about software development from the very beginning. Build
 <br>
 
 <p align="center">
-  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=joaopedev&show_icons=true&theme=tokyonight&cache_seconds=86400"/>
-  <img height="160em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=joaopedev&layout=compact&theme=tokyonight&cache_seconds=86400"/>
+  <img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joaopedev&theme=tokyonight" alt="GitHub profile details"/>
+</p>
+
+<p align="center">
+  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joaopedev&theme=tokyonight" alt="GitHub stats"/>
+  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=joaopedev&theme=tokyonight" alt="Most used languages by repository"/>
 </p>
 
 ---
