@@ -1,0 +1,76 @@
+<svg width="700" height="300" viewBox="0 0 700 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>
+    .title { fill: #70a5fd; font: 600 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .text { fill: #c9d1d9; font: 500 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .small { fill: #8b949e; font: 500 11px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #c9d1d9; font: 700 20px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect width="700" height="300" rx="8" fill="#1a1b27"/>
+  <rect x="0.5" y="0.5" width="699" height="299" rx="7.5" stroke="#30363d"/>
+  <text x="24" y="34" class="title">GitHub Profile Summary</text>
+  <text x="24" y="49" class="small">joaopedev / public repositories</text>
+  <rect x="24" y="58" width="123" height="60" rx="7" fill="#161821" stroke="#30363d"/>
+  <text x="36" y="82" class="small">Repos</text>
+  <text x="36" y="108" class="value">51</text>
+  <rect x="157" y="58" width="123" height="60" rx="7" fill="#161821" stroke="#30363d"/>
+  <text x="169" y="82" class="small">Stars</text>
+  <text x="169" y="108" class="value">0</text>
+  <rect x="290" y="58" width="123" height="60" rx="7" fill="#161821" stroke="#30363d"/>
+  <text x="302" y="82" class="small">Forks</text>
+  <text x="302" y="108" class="value">3</text>
+  <rect x="423" y="58" width="123" height="60" rx="7" fill="#161821" stroke="#30363d"/>
+  <text x="435" y="82" class="small">Followers</text>
+  <text x="435" y="108" class="value">27</text>
+  <rect x="556" y="58" width="123" height="60" rx="7" fill="#161821" stroke="#30363d"/>
+  <text x="568" y="82" class="small">Languages</text>
+  <text x="568" y="108" class="value">5</text>
+  <text x="28" y="143" class="text">Repository activity</text>
+  <line x1="28" y1="240" x2="433" y2="240" stroke="#2f3549" stroke-width="1"/>
+  <line x1="28" y1="199" x2="433" y2="199" stroke="#2f3549" stroke-width="1"/>
+  <line x1="28" y1="158" x2="433" y2="158" stroke="#2f3549" stroke-width="1"/>
+  <rect x="28.0" y="236.0" width="26.4" height="4.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  <text x="41.208333333333336" y="263" class="small" text-anchor="middle">Oct</text>
+  <rect x="62.4" y="236.0" width="26.4" height="4.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  
+  <rect x="96.8" y="236.0" width="26.4" height="4.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  <text x="110.04166666666667" y="263" class="small" text-anchor="middle">Dec</text>
+  <rect x="131.3" y="236.0" width="26.4" height="4.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  
+  <rect x="165.7" y="212.7" width="26.4" height="27.3" rx="3" fill="#7dcfff" opacity="0.9"/>
+  <text x="178.87500000000003" y="263" class="small" text-anchor="middle">Feb</text>
+  <rect x="200.1" y="212.7" width="26.4" height="27.3" rx="3" fill="#7dcfff" opacity="0.9"/>
+  
+  <rect x="234.5" y="212.7" width="26.4" height="27.3" rx="3" fill="#7dcfff" opacity="0.9"/>
+  <text x="247.70833333333337" y="263" class="small" text-anchor="middle">Apr</text>
+  <rect x="268.9" y="158.0" width="26.4" height="82.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  
+  <rect x="303.3" y="236.0" width="26.4" height="4.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  <text x="316.5416666666667" y="263" class="small" text-anchor="middle">Jun</text>
+  <rect x="337.8" y="236.0" width="26.4" height="4.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  
+  <rect x="372.2" y="236.0" width="26.4" height="4.0" rx="3" fill="#7dcfff" opacity="0.9"/>
+  <text x="385.37500000000006" y="263" class="small" text-anchor="middle">Aug</text>
+  <rect x="406.6" y="212.7" width="26.4" height="27.3" rx="3" fill="#7dcfff" opacity="0.9"/>
+  
+  <text x="482" y="143" class="text">Top languages by repo</text>
+  <text x="482" y="155" class="small">TypeScript</text>
+  <rect x="570" y="146" width="150" height="8" rx="4" fill="#2f3549"/>
+  <rect x="570" y="146" width="110.9" height="8" rx="4" fill="#3178c6"/>
+  <text x="665" y="155" class="small" text-anchor="end">74%</text>
+  <text x="482" y="178" class="small">JavaScript</text>
+  <rect x="570" y="169" width="150" height="8" rx="4" fill="#2f3549"/>
+  <rect x="570" y="169" width="16.3" height="8" rx="4" fill="#f1e05a"/>
+  <text x="665" y="178" class="small" text-anchor="end">11%</text>
+  <text x="482" y="201" class="small">HTML</text>
+  <rect x="570" y="192" width="150" height="8" rx="4" fill="#2f3549"/>
+  <rect x="570" y="192" width="13.0" height="8" rx="4" fill="#e34c26"/>
+  <text x="665" y="201" class="small" text-anchor="end">9%</text>
+  <text x="482" y="224" class="small">C#</text>
+  <rect x="570" y="215" width="150" height="8" rx="4" fill="#2f3549"/>
+  <rect x="570" y="215" width="8.0" height="8" rx="4" fill="#178600"/>
+  <text x="665" y="224" class="small" text-anchor="end">4%</text>
+  <text x="482" y="247" class="small">CSS</text>
+  <rect x="570" y="238" width="150" height="8" rx="4" fill="#2f3549"/>
+  <rect x="570" y="238" width="8.0" height="8" rx="4" fill="#563d7c"/>
+  <text x="665" y="247" class="small" text-anchor="end">2%</text>
+</svg>

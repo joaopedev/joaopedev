@@ -11,28 +11,16 @@ I have been passionate about software development from the very beginning. Build
 
 <br>
 
-<div align="center">
+<!-- Card parameters: username=joaopedev theme=tokyonight source=local-svg -->
 
-### Main Stack
+<p align="center">
+  <img width="700" src="./assets/github-summary.svg" alt="GitHub profile summary"/>
+</p>
 
-`TypeScript` · `JavaScript` · `HTML` · `CSS` · `C#`
-
-</div>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>What I work with</strong>
-      <br><br>
-      Building web applications, fixing bugs, integrating systems, validating features, and supporting deployments.
-    </td>
-    <td width="50%" valign="top">
-      <strong>What I am improving now</strong>
-      <br><br>
-      Full Stack JavaScript, cleaner architecture, stronger TypeScript, and better end-to-end product delivery.
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="340" src="./assets/github-stats.svg" alt="GitHub stats"/>
+  <img width="340" src="./assets/github-languages.svg" alt="Most used languages by repository"/>
+</p>
 
 ---
 

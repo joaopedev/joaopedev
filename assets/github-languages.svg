@@ -1,0 +1,35 @@
+<svg width="340" height="200" viewBox="0 0 340 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>
+    .title { fill: #70a5fd; font: 600 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .text { fill: #c9d1d9; font: 500 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .small { fill: #8b949e; font: 500 11px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #c9d1d9; font: 700 20px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect width="340" height="200" rx="8" fill="#1a1b27"/>
+  <rect x="0.5" y="0.5" width="339" height="199" rx="7.5" stroke="#30363d"/>
+  <text x="24" y="34" class="title">Top Languages by Repo</text>
+  <text x="24" y="50" class="small">Primary language across repositories</text>
+  <rect x="24" y="63" width="10" height="10" rx="2" fill="#3178c6"/>
+  <text x="42" y="73" class="text">TypeScript</text>
+  <text x="156" y="73" class="small" text-anchor="end">74%</text>
+  <rect x="24" y="83" width="10" height="10" rx="2" fill="#f1e05a"/>
+  <text x="42" y="93" class="text">JavaScript</text>
+  <text x="156" y="93" class="small" text-anchor="end">11%</text>
+  <rect x="24" y="103" width="10" height="10" rx="2" fill="#e34c26"/>
+  <text x="42" y="113" class="text">HTML</text>
+  <text x="156" y="113" class="small" text-anchor="end">9%</text>
+  <rect x="24" y="123" width="10" height="10" rx="2" fill="#178600"/>
+  <text x="42" y="133" class="text">C#</text>
+  <text x="156" y="133" class="small" text-anchor="end">4%</text>
+  <rect x="24" y="143" width="10" height="10" rx="2" fill="#563d7c"/>
+  <text x="42" y="153" class="text">CSS</text>
+  <text x="156" y="153" class="small" text-anchor="end">2%</text>
+  <circle cx="252" cy="104" r="42" fill="transparent" stroke="#2f3549" stroke-width="22"/>
+  <circle cx="252" cy="104" r="42" fill="transparent" stroke="#3178c6" stroke-width="22" stroke-dasharray="195.05 68.84" stroke-dashoffset="0.00" transform="rotate(-90 252 104)"/>
+  <circle cx="252" cy="104" r="42" fill="transparent" stroke="#f1e05a" stroke-width="22" stroke-dasharray="28.68 235.21" stroke-dashoffset="-195.05" transform="rotate(-90 252 104)"/>
+  <circle cx="252" cy="104" r="42" fill="transparent" stroke="#e34c26" stroke-width="22" stroke-dasharray="22.95 240.95" stroke-dashoffset="-223.74" transform="rotate(-90 252 104)"/>
+  <circle cx="252" cy="104" r="42" fill="transparent" stroke="#178600" stroke-width="22" stroke-dasharray="11.47 252.42" stroke-dashoffset="-246.68" transform="rotate(-90 252 104)"/>
+  <circle cx="252" cy="104" r="42" fill="transparent" stroke="#563d7c" stroke-width="22" stroke-dasharray="5.74 258.16" stroke-dashoffset="-258.16" transform="rotate(-90 252 104)"/>
+  <text x="252" y="100" class="value" text-anchor="middle">46</text>
+  <text x="252" y="117" class="small" text-anchor="middle">repos</text>
+</svg>

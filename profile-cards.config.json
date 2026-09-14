@@ -1,0 +1,12 @@
+{
+  "username": "joaopedev",
+  "theme": "tokyonight",
+  "includeForks": false,
+  "activityMonths": 12,
+  "maxLanguages": 6,
+  "output": {
+    "summary": "assets/github-summary.svg",
+    "stats": "assets/github-stats.svg",
+    "languages": "assets/github-languages.svg"
+  }
+}
