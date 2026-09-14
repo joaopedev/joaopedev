@@ -11,14 +11,28 @@ I have been passionate about software development from the very beginning. Build
 
 <br>
 
-<p align="center">
-  <img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joaopedev&theme=tokyonight" alt="GitHub profile details"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joaopedev&theme=tokyonight" alt="GitHub stats"/>
-  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=joaopedev&theme=tokyonight" alt="Most used languages by repository"/>
-</p>
+### Main Stack
+
+`TypeScript` · `JavaScript` · `HTML` · `CSS` · `C#`
+
+</div>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>What I work with</strong>
+      <br><br>
+      Building web applications, fixing bugs, integrating systems, validating features, and supporting deployments.
+    </td>
+    <td width="50%" valign="top">
+      <strong>What I am improving now</strong>
+      <br><br>
+      Full Stack JavaScript, cleaner architecture, stronger TypeScript, and better end-to-end product delivery.
+    </td>
+  </tr>
+</table>
 
 ---
 
