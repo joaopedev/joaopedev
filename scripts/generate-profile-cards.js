@@ -183,9 +183,10 @@ function baseSvg(width, height, content) {
 }
 
 function renderSummary(data) {
-  const width = 700;
-  const height = 300;
-  const statWidth = 123;
+  const width = 640;
+  const height = 320;
+  const statWidth = 112;
+  const statGap = 8;
   const stats = [
     ["Repos", data.repoCount],
     ["Stars", data.totalStars],
@@ -196,7 +197,7 @@ function renderSummary(data) {
 
   const statCards = stats
     .map(([label, value], index) => {
-      const x = 24 + index * (statWidth + 10);
+      const x = 24 + index * (statWidth + statGap);
       return `<rect x="${x}" y="58" width="${statWidth}" height="60" rx="7" fill="${theme.panel}" stroke="${theme.border}"/>
   <text x="${x + 12}" y="82" class="small">${escapeXml(label)}</text>
   <text x="${x + 12}" y="108" class="value">${escapeXml(formatNumber(value))}</text>`;
@@ -204,8 +205,8 @@ function renderSummary(data) {
     .join("\n  ");
 
   const chartX = 28;
-  const chartY = 158;
-  const chartW = 405;
+  const chartY = 168;
+  const chartW = 345;
   const chartH = 82;
   const maxActivity = Math.max(1, ...data.activity.map((month) => month.count));
   const barGap = 8;
@@ -223,7 +224,7 @@ function renderSummary(data) {
       const h = Math.max(4, (month.count / maxActivity) * chartH);
       const x = chartX + index * (barWidth + barGap);
       const y = chartY + chartH - h;
-      const label = index % 2 === 0 ? `<text x="${x + barWidth / 2}" y="263" class="small" text-anchor="middle">${month.label}</text>` : "";
+      const label = index % 2 === 0 ? `<text x="${x + barWidth / 2}" y="273" class="small" text-anchor="middle">${month.label}</text>` : "";
 
       return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${barWidth.toFixed(
         1
@@ -236,13 +237,13 @@ function renderSummary(data) {
   const languageBars = data.languages
     .slice(0, 5)
     .map((language, index) => {
-      const y = 155 + index * 23;
+      const y = 164 + index * 23;
       const percent = (language.count / languageTotal) * 100;
-      const width = Math.max(8, (percent / 100) * 150);
-      return `<text x="482" y="${y}" class="small">${escapeXml(language.name)}</text>
-  <rect x="570" y="${y - 9}" width="150" height="8" rx="4" fill="${theme.grid}"/>
-  <rect x="570" y="${y - 9}" width="${width.toFixed(1)}" height="8" rx="4" fill="${language.color}"/>
-  <text x="665" y="${y}" class="small" text-anchor="end">${percent.toFixed(0)}%</text>`;
+      const width = Math.max(8, (percent / 100) * 104);
+      return `<text x="420" y="${y}" class="small">${escapeXml(language.name)}</text>
+  <rect x="506" y="${y - 9}" width="104" height="8" rx="4" fill="${theme.grid}"/>
+  <rect x="506" y="${y - 9}" width="${width.toFixed(1)}" height="8" rx="4" fill="${language.color}"/>
+  <text x="612" y="${y}" class="small" text-anchor="end">${percent.toFixed(0)}%</text>`;
     })
     .join("\n  ");
 
@@ -252,10 +253,10 @@ function renderSummary(data) {
     `<text x="24" y="34" class="title">GitHub Profile Summary</text>
   <text x="24" y="49" class="small">${escapeXml(data.user.login)} / public repositories</text>
   ${statCards}
-  <text x="28" y="143" class="text">Repository activity</text>
+  <text x="28" y="153" class="text">Repository activity</text>
   ${gridLines}
   ${bars}
-  <text x="482" y="143" class="text">Top languages by repo</text>
+  <text x="420" y="153" class="text">Top languages by repo</text>
   ${languageBars}`
   );
 }
@@ -272,15 +273,15 @@ function renderStats(data) {
 
   const rowSvg = rows
     .map(([label, value], index) => {
-      const y = 64 + index * 20;
+      const y = 72 + index * 22;
       return `<text x="28" y="${y}" class="text">${escapeXml(label)}</text>
-  <text x="312" y="${y}" class="text" text-anchor="end">${escapeXml(formatNumber(value))}</text>`;
+  <text x="292" y="${y}" class="text" text-anchor="end">${escapeXml(formatNumber(value))}</text>`;
     })
     .join("\n  ");
 
   return baseSvg(
-    340,
-    200,
+    320,
+    215,
     `<text x="24" y="34" class="title">GitHub Stats</text>
   <text x="24" y="50" class="small">${escapeXml(data.user.login)} / ${escapeXml(config.theme)}</text>
   ${rowSvg}`
@@ -296,11 +297,11 @@ function renderLanguages(data) {
   const segments = data.languages
     .map((language) => {
       const length = (language.count / total) * circumference;
-      const segment = `<circle cx="252" cy="104" r="${radius}" fill="transparent" stroke="${language.color}" stroke-width="22" stroke-dasharray="${length.toFixed(
+      const segment = `<circle cx="238" cy="112" r="${radius}" fill="transparent" stroke="${language.color}" stroke-width="22" stroke-dasharray="${length.toFixed(
         2
       )} ${(circumference - length).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(
         2
-      )}" transform="rotate(-90 252 104)"/>`;
+      )}" transform="rotate(-90 238 112)"/>`;
       offset += length;
       return segment;
     })
@@ -309,25 +310,25 @@ function renderLanguages(data) {
   const legend = data.languages
     .slice(0, 6)
     .map((language, index) => {
-      const y = 73 + index * 20;
+      const y = 78 + index * 21;
       const percent = ((language.count / total) * 100).toFixed(0);
 
       return `<rect x="24" y="${y - 10}" width="10" height="10" rx="2" fill="${language.color}"/>
   <text x="42" y="${y}" class="text">${escapeXml(language.name)}</text>
-  <text x="156" y="${y}" class="small" text-anchor="end">${percent}%</text>`;
+  <text x="148" y="${y}" class="small" text-anchor="end">${percent}%</text>`;
     })
     .join("\n  ");
 
   return baseSvg(
-    340,
-    200,
+    320,
+    215,
     `<text x="24" y="34" class="title">Top Languages by Repo</text>
   <text x="24" y="50" class="small">Primary language across repositories</text>
   ${legend}
-  <circle cx="252" cy="104" r="${radius}" fill="transparent" stroke="${theme.grid}" stroke-width="22"/>
+  <circle cx="238" cy="112" r="${radius}" fill="transparent" stroke="${theme.grid}" stroke-width="22"/>
   ${segments}
-  <text x="252" y="100" class="value" text-anchor="middle">${total}</text>
-  <text x="252" y="117" class="small" text-anchor="middle">repos</text>`
+  <text x="238" y="108" class="value" text-anchor="middle">${total}</text>
+  <text x="238" y="125" class="small" text-anchor="middle">repos</text>`
   );
 }
 

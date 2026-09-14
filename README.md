@@ -14,12 +14,12 @@ I have been passionate about software development from the very beginning. Build
 <!-- Card parameters: username=joaopedev theme=tokyonight source=local-svg -->
 
 <p align="center">
-  <img width="700" src="./assets/github-summary.svg" alt="GitHub profile summary"/>
+  <img width="640" src="./assets/github-summary.svg" alt="GitHub profile summary"/>
 </p>
 
 <p align="center">
-  <img width="340" src="./assets/github-stats.svg" alt="GitHub stats"/>
-  <img width="340" src="./assets/github-languages.svg" alt="Most used languages by repository"/>
+  <img width="315" src="./assets/github-stats.svg" alt="GitHub stats"/>
+  <img width="315" src="./assets/github-languages.svg" alt="Most used languages by repository"/>
 </p>
 
 ---
